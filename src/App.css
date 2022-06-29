@@ -22,7 +22,7 @@
 }
 
 .container > h1{
-    font-size: "Spartan", sans-serif;
+    font-family: "Spartan", sans-serif;
     text-align: center;
 
 }
@@ -45,6 +45,25 @@
   border: 1px solid rgba(22, 76, 167, 0.6);
 }
 
-.container>h3{
+@media screen and (max-width:768px) {
+    .container > h1 {
+        font-size: 15px;
+        flex: 1;
+        
 
+    }
+    .container > h3 {
+        font-size: 10px;
+        
+
+    }
+
+    .container > button {
+        font-size:10px;
+        height: 10px;
+  border-radius: 5px;
+
+
+    }
+    
 }
