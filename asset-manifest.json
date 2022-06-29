@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/advices-ai-app/static/css/main.c6082a0c.css",
+    "main.css": "/advices-ai-app/static/css/main.dd3b567c.css",
     "main.js": "/advices-ai-app/static/js/main.5d7fbc38.js",
     "index.html": "/advices-ai-app/index.html",
-    "main.c6082a0c.css.map": "/advices-ai-app/static/css/main.c6082a0c.css.map",
+    "main.dd3b567c.css.map": "/advices-ai-app/static/css/main.dd3b567c.css.map",
     "main.5d7fbc38.js.map": "/advices-ai-app/static/js/main.5d7fbc38.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6082a0c.css",
+    "static/css/main.dd3b567c.css",
     "static/js/main.5d7fbc38.js"
   ]
 }
