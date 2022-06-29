@@ -12,7 +12,7 @@ function App() {
   const fetchCall = async () => {
     const response = await Axios.get("https://api.adviceslip.com/advice");
     const data = await response.data;
-    const msg = data?.slip.advice
+    const msg = data?.slip.advice;
     setAdvise(msg);
     return msg;
   };
@@ -21,9 +21,9 @@ function App() {
     fetchCall();
     const alanInstance = alanBtn({
       key: alanKey,
-      onCommand: async({ command }) => {
+      onCommand: async ({ command }) => {
         if (command === "speak") {
-          const ab= await fetchCall();
+          const ab = await fetchCall();
           alanInstance.playText(ab);
         }
       },
@@ -32,11 +32,9 @@ function App() {
 
   return (
     <div className="homebg">
-        <div className="instructions">
-            
-        </div>
+      <div className="instructions"></div>
       <div className="container">
-      <h3>Ask "Say Something"</h3>
+        <h3>Ask "Say prem Something"</h3>
         <h1>{advise}</h1>
         <button onClick={fetchCall}>Give me Advise</button>
       </div>
