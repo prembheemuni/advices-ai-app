@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/advices-ai-app/static/css/main.7a9ca2d9.css",
+    "main.js": "/advices-ai-app/static/js/main.5d7fbc38.js",
+    "index.html": "/advices-ai-app/index.html",
+    "main.7a9ca2d9.css.map": "/advices-ai-app/static/css/main.7a9ca2d9.css.map",
+    "main.5d7fbc38.js.map": "/advices-ai-app/static/js/main.5d7fbc38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a9ca2d9.css",
+    "static/js/main.5d7fbc38.js"
+  ]
+}
