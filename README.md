@@ -1,4 +1,5 @@
-<h1 align="center">Welcome to Adwise AI Voice Assistant Application(ReactJS) 👋</h1>
+<h1 align="center">Welcome to Advise AI Voice Assistant Application(ReactJS) 👋</h1>
+<img src="https://i.im.ge/2022/06/30/uSftq0.png"/>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
 </p>
